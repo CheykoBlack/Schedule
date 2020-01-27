@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Schedule", "Schedule\Schedule.csproj", "{50EEEEA7-116D-4432-A502-88A30EB1F7DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Web", "Schedule\Web.csproj", "{50EEEEA7-116D-4432-A502-88A30EB1F7DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{7C7F7A9B-E889-4F3C-BB43-8ECAB2E11917}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server", "Server", "{72890D79-9C97-463A-9387-5127DBCC6649}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Schedule.EntityFramework", "Schedule.EntityFramework\Schedule.EntityFramework.csproj", "{26CCF554-D8D7-45C2-B99B-136134F9B21E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +21,17 @@ Global
 		{50EEEEA7-116D-4432-A502-88A30EB1F7DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50EEEEA7-116D-4432-A502-88A30EB1F7DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50EEEEA7-116D-4432-A502-88A30EB1F7DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26CCF554-D8D7-45C2-B99B-136134F9B21E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26CCF554-D8D7-45C2-B99B-136134F9B21E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26CCF554-D8D7-45C2-B99B-136134F9B21E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26CCF554-D8D7-45C2-B99B-136134F9B21E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{50EEEEA7-116D-4432-A502-88A30EB1F7DD} = {72890D79-9C97-463A-9387-5127DBCC6649}
+		{26CCF554-D8D7-45C2-B99B-136134F9B21E} = {7C7F7A9B-E889-4F3C-BB43-8ECAB2E11917}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1886D398-BB05-4D06-9453-3B328B8EFFA3}
